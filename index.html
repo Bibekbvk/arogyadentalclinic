@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>Arogya Dental Clinic | Falgunanda Chowk, Damak, Jhapa</title>
+  <meta name="description" content="Arogya Dental Clinic in Falgunanda Chowk, Damak-1, Jhapa. Trusted dental care by Dr. Ratna Kumar Mishra (B.D.S., NMC No. 13350). RCT, scaling, implants, braces, pediatric dentistry." />
+  <meta name="keywords" content="Arogya Dental Clinic, Dental Clinic in Damak, Dentist in Damak, Falgunanda Chowk, Jhapa Dental Care, Dr Ratna Kumar Mishra, Root Canal Damak, Teeth Cleaning Damak" />
+  <meta name="author" content="Arogya Dental Clinic" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/clinic-logo.jpg" />
+  <link rel="apple-touch-icon" href="assets/images/clinic-logo.jpg" />
+  
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="Arogya Dental Clinic | Your Trusted Smile Partner in Damak" />
+  <meta property="og:description" content="Comprehensive, gentle, and modern dental care for you and your family in Damak, Jhapa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/clinic-logo.jpg" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              500: '#14b8a6',
+              600: '#0d9488',
+              700: '#0f766e',
+              800: '#115e59',
+            },
+            medical: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+
+  <!-- ================= TOP EMERGENCY & NOTICE BAR ================= -->
+  <div class="bg-slate-900 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <!-- Location & Timing -->
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-4">
+        <span class="flex items-center gap-1.5 text-slate-300">
+          <i class="fa-solid fa-location-dot text-teal-400"></i>
+          Falgunanda Chowk, Damak-1, Jhapa
+        </span>
+        <span class="hidden sm:inline text-slate-600">|</span>
+        <span class="flex items-center gap-1.5 text-slate-300">
+          <i class="fa-regular fa-clock text-teal-400"></i>
+          Sun–Fri: 8:00 AM – 7:00 PM
+        </span>
+      </div>
+
+      <!-- Emergency Hotline & Reg Badge -->
+      <div class="flex items-center gap-3">
+        <span class="hidden lg:inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-teal-950 text-teal-300 border border-teal-800/60">
+          Regd. No. 01-32-0703 &bull; NMC: 13350
+        </span>
+        <a href="tel:+9779801109099" class="inline-flex items-center gap-1.5 text-white font-semibold hover:text-teal-400 transition-colors bg-teal-600/20 px-2.5 py-0.5 rounded-full border border-teal-500/30">
+          <i class="fa-solid fa-phone-volume text-teal-400 animate-pulse"></i>
+          <span>Emergency: +977-9801109099</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= STICKY MAIN NAVBAR ================= -->
+  <header id="main-navbar" class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo / Brand Branding Slot -->
+        <!-- NOTE: CLINIC LOGO PLACEHOLDER SLOT - Loaded with provided official logo -->
+        <a href="#home" class="flex items-center gap-3 group">
+          <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full p-0.5 bg-gradient-to-tr from-teal-500 to-sky-500 shadow-sm flex-shrink-0">
+            <!-- Clinic Logo Image -->
+            <img 
+              src="assets/images/clinic-logo.jpg" 
+              alt="Arogya Dental Clinic Logo Damak" 
+              class="w-full h-full object-cover rounded-full bg-white border border-white"
+              onerror="this.style.display='none'; document.getElementById('logo-fallback').classList.remove('hidden');"
+            />
+            <!-- Fallback Icon if logo file is moved -->
+            <div id="logo-fallback" class="hidden w-full h-full rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-xl">
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 group-hover:text-teal-600 transition-colors">
+                Arogya <span class="text-teal-600">Dental</span>
+              </span>
+            </div>
+            <p class="text-[11px] sm:text-xs text-slate-500 font-medium font-nepali">
+              आरोग्य डेन्टल क्लिनिक &bull; Damak-1, Jhapa
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-[15px] font-medium text-slate-700">
+          <a href="#home" class="hover:text-teal-600 transition-colors">Home</a>
+          <a href="#about" class="hover:text-teal-600 transition-colors">About Us</a>
+          <a href="#services" class="hover:text-teal-600 transition-colors">Services</a>
+          <a href="#facilities" class="hover:text-teal-600 transition-colors">Doctor & Facilities</a>
+          <a href="#location" class="hover:text-teal-600 transition-colors">Location & Timing</a>
+          <a href="#contact" class="hover:text-teal-600 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Navbar Action CTAs -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="tel:+9779801109099" class="inline-flex items-center justify-center p-2.5 rounded-xl text-slate-700 hover:text-teal-600 hover:bg-slate-100 transition-all" title="Call Arogya Dental Clinic">
+            <i class="fa-solid fa-phone text-lg"></i>
+          </a>
+          <a href="#book-appointment" class="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-sky-600 hover:from-teal-700 hover:to-sky-700 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>Book Appointment</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" type="button" aria-label="Open Navigation Menu" class="lg:hidden p-2.5 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-teal-500">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MOBILE DRAWER MENU ================= -->
+  <div id="mobile-backdrop" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+  <div id="mobile-menu" class="fixed top-0 right-0 bottom-0 w-4/5 max-w-sm bg-white z-50 shadow-2xl p-6 transform translate-x-full transition-transform duration-300 flex flex-col justify-between overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-5 border-b border-slate-100">
+        <div class="flex items-center gap-2">
+          <img src="assets/images/clinic-logo.jpg" alt="Logo" class="w-9 h-9 rounded-full border border-teal-500" />
+          <span class="font-bold text-slate-900 text-lg">Arogya Dental</span>
+        </div>
+        <button id="close-menu-btn" aria-label="Close Menu" class="p-2 text-slate-500 hover:text-slate-800 rounded-lg hover:bg-slate-100">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+
+      <nav class="mt-6 flex flex-col space-y-3">
+        <a href="#home" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-house w-5 text-teal-600"></i> Home
+        </a>
+        <a href="#about" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-circle-info w-5 text-teal-600"></i> About Us
+        </a>
+        <a href="#services" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-tooth w-5 text-teal-600"></i> Dental Services
+        </a>
+        <a href="#facilities" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-user-doctor w-5 text-teal-600"></i> Doctor & Facilities
+        </a>
+        <a href="#location" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-map-location-dot w-5 text-teal-600"></i> Location & Timing
+        </a>
+        <a href="#contact" class="mobile-nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-slate-700 hover:bg-teal-50 hover:text-teal-700">
+          <i class="fa-solid fa-envelope w-5 text-teal-600"></i> Contact Us
+        </a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-slate-100 space-y-3">
+      <a href="#book-appointment" class="mobile-nav-link block w-full text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 rounded-xl shadow-md">
+        <i class="fa-regular fa-calendar-check mr-2"></i> Book Appointment
+      </a>
+      <a href="tel:+9779801109099" class="block w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-3 rounded-xl">
+        <i class="fa-solid fa-phone mr-2 text-teal-600"></i> Call: +977-9801109099
+      </a>
+      <p class="text-xs text-center text-slate-500 pt-2">
+        Falgunanda Chowk, Damak-1, Jhapa
+      </p>
+    </div>
+  </div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="relative overflow-hidden hero-gradient-bg pt-8 pb-16 lg:pt-14 lg:pb-24 border-b border-slate-200/70">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Trust Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-50 border border-teal-200 text-teal-800 text-xs sm:text-sm font-semibold shadow-sm">
+            <span class="flex h-2 w-2 rounded-full bg-teal-500 animate-ping-slow"></span>
+            <span>Welcome to Arogya Dental Clinic &bull; Damak, Jhapa</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+            Your Trusted <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-sky-600">Smile Partner</span> in Damak
+          </h1>
+
+          <!-- Subhead -->
+          <p class="text-base sm:text-lg md:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            Comprehensive, gentle, and modern dental care for you and your family at <strong>Arogya Dental Clinic</strong>. Led by certified dental surgeon <strong>Dr. Ratna Kumar Mishra</strong> (B.D.S., NMC No. 13350).
+          </p>
+
+          <!-- Primary & Secondary CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#book-appointment" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-teal-500/25 transition-all transform hover:-translate-y-0.5 text-base">
+              <i class="fa-regular fa-calendar-check text-lg"></i>
+              <span>Schedule Your Visit</span>
+            </a>
+
+            <a href="tel:+9779801109099" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold px-7 py-4 rounded-xl shadow-sm hover:shadow transition-all text-base">
+              <i class="fa-solid fa-phone-volume text-teal-600"></i>
+              <span>Emergency Contact</span>
+            </a>
+          </div>
+
+          <!-- Trust Indicators / Features -->
+          <div class="pt-6 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-lg bg-teal-100/80 text-teal-700 flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-shield-virus text-lg"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-500">Hygiene Standard</p>
+                <p class="text-sm font-bold text-slate-800">100% Sterile Setup</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-lg bg-sky-100/80 text-sky-700 flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-microscope text-lg"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-500">Technology</p>
+                <p class="text-sm font-bold text-slate-800">Modern Dental Chairs</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 col-span-2 sm:col-span-1">
+              <div class="w-10 h-10 rounded-lg bg-indigo-100/80 text-indigo-700 flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-user-check text-lg"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-500">Certified Care</p>
+                <p class="text-sm font-bold text-slate-800">NMC Regd. Doctors</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual / Interactive Card -->
+        <div class="lg:col-span-5 relative">
+          <!-- Decorative Background Blobs -->
+          <div class="absolute -top-6 -right-6 w-64 h-64 bg-teal-300/30 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="absolute -bottom-6 -left-6 w-64 h-64 bg-sky-300/30 rounded-full blur-3xl pointer-events-none"></div>
+
+          <!-- Hero Image Card Frame -->
+          <!-- NOTE: HERO BANNER IMAGE PLACEHOLDER - Replace src below with clinic photo if desired -->
+          <div class="relative bg-white rounded-3xl p-3 sm:p-4 shadow-xl border border-slate-200/90 overflow-hidden">
+            <div class="relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-100 group">
+              <img 
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" 
+                alt="Modern Arogya Dental Clinic Chair and Setup" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
+              
+              <!-- Tag on image -->
+              <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold text-slate-800 shadow-md flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span>Open Today: 8 AM - 7 PM</span>
+              </div>
+
+              <!-- Bottom caption on image -->
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <p class="text-xs font-medium text-teal-200">Falgunanda Chowk, Damak-1</p>
+                <p class="text-base font-bold">Gentle & Painless Dentistry</p>
+              </div>
+            </div>
+
+            <!-- Mini Quick Floating Stats inside Hero -->
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <div class="bg-teal-50/70 rounded-xl p-3 border border-teal-100">
+                <div class="flex items-center gap-2 text-teal-700 mb-1">
+                  <i class="fa-solid fa-stethoscope"></i>
+                  <span class="text-xs font-bold uppercase tracking-wider">Chief Dentist</span>
+                </div>
+                <p class="text-sm font-bold text-slate-900">Dr. Ratna Kr. Mishra</p>
+                <p class="text-xs text-slate-500">B.D.S. &bull; NMC No. 13350</p>
+              </div>
+
+              <div class="bg-sky-50/70 rounded-xl p-3 border border-sky-100">
+                <div class="flex items-center gap-2 text-sky-700 mb-1">
+                  <i class="fa-solid fa-certificate"></i>
+                  <span class="text-xs font-bold uppercase tracking-wider">Government Reg.</span>
+                </div>
+                <p class="text-sm font-bold text-slate-900">Regd. 01-32-0703</p>
+                <p class="text-xs text-slate-500">PAN: 118898500</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT US & DOCTOR PROFILE ================= -->
+  <section id="about" class="py-16 sm:py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-teal-600 font-bold text-xs uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+          About Arogya Dental Clinic
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+          Dedicated to Healthy Smiles & Painless Dental Care
+        </h2>
+        <p class="text-slate-600 mt-3 text-base sm:text-lg">
+          Situated at the heart of Damak at Falgunanda Chowk, Arogya Dental Clinic blends dental expertise, modern diagnostic tools, and compassionate patient care.
+        </p>
+      </div>
+
+      <!-- Grid: Intro + Doctor Profile Card -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Clinic Philosophy & Highlights -->
+        <div class="lg:col-span-7 bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200/80 flex flex-col justify-between">
+          <div class="space-y-4">
+            <h3 class="text-2xl font-bold text-slate-900">
+              Why Patients in Damak Trust Arogya Dental
+            </h3>
+            <p class="text-slate-600 leading-relaxed">
+              At Arogya Dental Clinic, we understand that dental visits can cause anxiety. Our mission is to provide gentle, stress-free treatments where every patient feels completely heard, respected, and at ease. Whether it is routine teeth scaling, an emergency root canal, or teeth realignment, we maintain hospital-grade sterilization protocols and modern procedures.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+              <div class="flex items-start gap-3 bg-white p-4 rounded-2xl border border-slate-200">
+                <div class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i class="fa-solid fa-check text-sm font-bold"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-sm">Gentle & Painless Tech</h4>
+                  <p class="text-xs text-slate-500 mt-0.5">Minimally invasive methods for maximum patient comfort.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-white p-4 rounded-2xl border border-slate-200">
+                <div class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i class="fa-solid fa-pump-medical text-sm"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-sm">Autoclaved Sterilization</h4>
+                  <p class="text-xs text-slate-500 mt-0.5">Strict multi-tier infection control for complete safety.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-white p-4 rounded-2xl border border-slate-200">
+                <div class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i class="fa-solid fa-wallet text-sm"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-sm">Transparent & Affordable</h4>
+                  <p class="text-xs text-slate-500 mt-0.5">Fair pricing with clear consultation before any procedure.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-white p-4 rounded-2xl border border-slate-200">
+                <div class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i class="fa-solid fa-truck-medical text-sm"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-sm">Emergency Dental Relief</h4>
+                  <p class="text-xs text-slate-500 mt-0.5">Prompt attention for severe toothache and trauma.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-6 border-t border-slate-200 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold uppercase text-slate-500">Clinic Motto:</span>
+              <span class="text-sm font-bold text-teal-700 font-nepali">"यहाँ दाँत सम्बन्धी सम्पूर्ण उपचार उपलब्ध छ ।"</span>
+            </div>
+            <a href="#book-appointment" class="text-sm font-bold text-teal-600 hover:text-teal-800 flex items-center gap-1.5">
+              <span>Book a Consultation</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Doctor Profile Card with Official Signage Credentials -->
+        <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-3xl p-6 sm:p-8 shadow-xl flex flex-col justify-between relative overflow-hidden">
+          
+          <!-- Background watermark logo -->
+          <div class="absolute -right-8 -bottom-8 opacity-10 pointer-events-none">
+            <img src="assets/images/clinic-logo.jpg" alt="" class="w-64 h-64 rounded-full" />
+          </div>
+
+          <div class="relative z-10 space-y-5">
+            <div class="flex items-center justify-between">
+              <span class="bg-teal-500/20 text-teal-300 border border-teal-400/30 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                Lead Dental Surgeon
+              </span>
+              <span class="text-xs text-slate-400">Damak, Jhapa</span>
+            </div>
+
+            <div>
+              <h3 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+                Dr. Ratna Kumar Mishra
+              </h3>
+              <p class="text-teal-400 font-semibold text-base mt-0.5">
+                B.D.S. (Bachelor of Dental Surgery)
+              </p>
+              <div class="inline-flex items-center gap-2 mt-2 bg-slate-800/80 px-3 py-1 rounded-lg border border-slate-700 text-xs font-mono text-yellow-300">
+                <i class="fa-solid fa-id-card"></i>
+                <span>Nepal Medical Council (NMC) No: 13350</span>
+              </div>
+            </div>
+
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Dr. Ratna Kumar Mishra brings years of dedicated clinical practice in restorative dentistry, painless root canal procedures, and aesthetic smile rehabilitation. Passionate about community oral hygiene across Damak and Koshi Province.
+            </p>
+
+            <div class="space-y-2.5 pt-3 border-t border-slate-700 text-xs text-slate-300">
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Official Clinic Regd:</span>
+                <span class="font-semibold text-white">01-32-0703</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Permanent Account (PAN):</span>
+                <span class="font-semibold text-white">118898500</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-slate-400">Establishment:</span>
+                <span class="font-semibold text-white">2026 AD &bull; Damak-1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative z-10 mt-6 pt-5 border-t border-slate-700/80 flex items-center justify-between">
+            <a href="tel:+9779801109099" class="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 text-sm font-semibold">
+              <i class="fa-solid fa-phone"></i>
+              <span>Direct Doctor Line</span>
+            </a>
+            <a href="#book-appointment" class="bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs px-4 py-2 rounded-xl transition-all shadow">
+              Book Appointment
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CLINIC TOUR & FACILITIES GALLERY ================= -->
+  <section id="facilities" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <span class="text-teal-600 font-bold text-xs uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+            Hygienic & Modern Setup
+          </span>
+          <h2 class="text-3xl font-extrabold text-slate-900 mt-2">
+            Clinic Facilities & Environment
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-1">
+            Designed for patient serenity, safety, and modern ergonomic comfort.
+          </p>
+        </div>
+        <a href="#book-appointment" class="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-bold text-sm">
+          <span>Take a Clinic Tour in Person</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Photo Gallery Grid with clear comment tags for replacement -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- CARD 1: Modern Dental Operatory Chair -->
+        <!-- NOTE: CLINIC PHOTO PLACEHOLDER 1 - Replace src URL below with actual clinic dental chair photo -->
+        <div class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all">
+          <div class="relative aspect-[4/3] overflow-hidden bg-slate-100">
+            <img 
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" 
+              alt="Modern Dental Operatory Chair at Arogya Dental" 
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-white/90 text-slate-800 text-[11px] font-bold px-2.5 py-1 rounded-md shadow-sm">
+              Operatory 1
+            </span>
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-slate-900 text-sm">Ergonomic Dental Chair</h4>
+            <p class="text-xs text-slate-500 mt-1">Comfortable reclining patient units with LED operating illuminator.</p>
+          </div>
+        </div>
+
+        <!-- CARD 2: Sterilization & Autoclave Suite -->
+        <!-- NOTE: CLINIC PHOTO PLACEHOLDER 2 - Replace src URL below with actual sterilization setup photo -->
+        <div class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all">
+          <div class="relative aspect-[4/3] overflow-hidden bg-slate-100">
+            <img 
+              src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" 
+              alt="Sterilization and Hygiene Setup" 
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-white/90 text-slate-800 text-[11px] font-bold px-2.5 py-1 rounded-md shadow-sm">
+              Safety First
+            </span>
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-slate-900 text-sm">Class-B Autoclave Suite</h4>
+            <p class="text-xs text-slate-500 mt-1">Hospital grade thermal sterilization for 100% infection prevention.</p>
+          </div>
+        </div>
+
+        <!-- CARD 3: Consultation & Diagnostics -->
+        <!-- NOTE: CLINIC PHOTO PLACEHOLDER 3 - Replace src URL below with actual consultation room photo -->
+        <div class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all">
+          <div class="relative aspect-[4/3] overflow-hidden bg-slate-100">
+            <img 
+              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=600&q=80" 
+              alt="Diagnostic and Consultation Room" 
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-white/90 text-slate-800 text-[11px] font-bold px-2.5 py-1 rounded-md shadow-sm">
+              Consultation
+            </span>
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-slate-900 text-sm">Diagnostic Counseling</h4>
+            <p class="text-xs text-slate-500 mt-1">Detailed oral examination and personalized treatment planning.</p>
+          </div>
+        </div>
+
+        <!-- CARD 4: Happy Smiles & Patient Care -->
+        <!-- NOTE: CLINIC PHOTO PLACEHOLDER 4 - Replace src URL below with actual happy patient smiles photo -->
+        <div class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all">
+          <div class="relative aspect-[4/3] overflow-hidden bg-slate-100">
+            <img 
+              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" 
+              alt="Happy Smile Treatment Results" 
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-white/90 text-slate-800 text-[11px] font-bold px-2.5 py-1 rounded-md shadow-sm">
+              Happy Smiles
+            </span>
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-slate-900 text-sm">Gentle Family Dentistry</h4>
+            <p class="text-xs text-slate-500 mt-1">Creating radiant smiles for children, adults, and elderly patients.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Verified Clinic Signboards Preview Strip -->
+      <div class="mt-10 bg-white p-5 rounded-2xl border border-slate-200">
+        <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 flex items-center gap-1.5">
+          <i class="fa-solid fa-circle-check text-teal-600"></i>
+          <span>Official Clinic Signboards at Falgunanda Chowk, Damak-1:</span>
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="rounded-xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+            <img src="assets/images/banner-doctor-red.jpg" alt="Arogya Dental Clinic Signboard - Dr. Ratna Kumar Mishra" class="w-full h-auto object-cover" />
+          </div>
+          <div class="rounded-xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+            <img src="assets/images/banner-clinic-blue.jpg" alt="Arogya Dental Clinic Signboard - Registration and Contact" class="w-full h-auto object-cover" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= DENTAL SERVICES SECTION ================= -->
+  <section id="services" class="py-16 sm:py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-teal-600 font-bold text-xs uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+          Our Specializations
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+          Comprehensive Dental Services
+        </h2>
+        <p class="text-slate-600 mt-3 text-base sm:text-lg">
+          From preventative scaling to complex surgical extractions and aesthetic smile design, we deliver gentle, painless, and lasting dental solutions.
+        </p>
+      </div>
+
+      <!-- 7 Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        
+        <!-- SERVICE 1: Scaling & Polishing -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-sparkles"></i>
+            </div>
+            <span class="text-xs font-semibold text-teal-600 uppercase tracking-wider">Preventive Care</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Scaling & Polishing (Teeth Cleaning)</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Gentle ultrasonic removal of stubborn tartar, dental plaque, and tea/coffee stains. Prevents gum disease, bleeding gums, and bad breath.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Painless ultrasonic technology</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Enamel-safe stain removal</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Instant freshness & shine</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Duration: ~30-45 mins</span>
+            <button data-service="Scaling & Polishing (Teeth Cleaning)" class="book-service-btn text-xs font-bold text-teal-700 hover:text-teal-900 bg-teal-100/80 hover:bg-teal-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 2: Root Canal Treatment (RCT) -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+            <span class="text-xs font-semibold text-sky-600 uppercase tracking-wider">Restorative Care</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Root Canal Treatment (RCT)</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Save severely infected or decayed natural teeth without extraction. Modern rotary endodontics ensure comfortable and virtually painless treatment.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-sky-500"></i> Rapid severe pain relief</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-sky-500"></i> Saves natural teeth longevity</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-sky-500"></i> Precision rotary instrumentation</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Single/Multiple visits</span>
+            <button data-service="Root Canal Treatment (RCT)" class="book-service-btn text-xs font-bold text-sky-700 hover:text-sky-900 bg-sky-100/80 hover:bg-sky-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 3: Tooth Extractions & Impactions -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-hand-holding-medical"></i>
+            </div>
+            <span class="text-xs font-semibold text-amber-600 uppercase tracking-wider">Oral Surgery</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Tooth Extractions & Impactions</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Safe removal of non-restorable teeth, broken roots, and impacted third molars (wisdom teeth) with gentle localized anesthesia and rapid recovery.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500"></i> Gentle atraumatic techniques</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500"></i> Wisdom tooth surgical removal</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500"></i> Detailed post-care guidelines</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Emergency care ready</span>
+            <button data-service="Tooth Extractions & Impactions" class="book-service-btn text-xs font-bold text-amber-700 hover:text-amber-900 bg-amber-100/80 hover:bg-amber-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 4: Crowns, Bridges & Implants -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-crown"></i>
+            </div>
+            <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider">Prosthodontics</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Dental Crowns, Bridges & Implants</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Durable zirconia, ceramic, and metal-free caps to restore fractured teeth or permanently replace missing teeth for confident chewing and smiling.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-indigo-500"></i> Natural shade & translucency</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-indigo-500"></i> Fixed ceramic bridge options</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-indigo-500"></i> Permanent dental implant solutions</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Custom shade matching</span>
+            <button data-service="Dental Crowns, Bridges & Implants" class="book-service-btn text-xs font-bold text-indigo-700 hover:text-indigo-900 bg-indigo-100/80 hover:bg-indigo-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 5: Braces & Aligners -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-rose-100 text-rose-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-teeth-open"></i>
+            </div>
+            <span class="text-xs font-semibold text-rose-600 uppercase tracking-wider">Orthodontics</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Braces & Aligners (Orthodontics)</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Straighten crooked teeth, close gaps, and correct bite alignments for teens and adults using traditional braces, ceramic brackets, or clear aligners.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-500"></i> Metal & aesthetic ceramic brackets</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-500"></i> Discreet clear aligners</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-500"></i> Balanced facial symmetry</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Teens & Adults</span>
+            <button data-service="Braces & Aligners (Orthodontics)" class="book-service-btn text-xs font-bold text-rose-700 hover:text-rose-900 bg-rose-100/80 hover:bg-rose-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 6: Cosmetic Dentistry & Whitening -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center text-2xl mb-5 shadow-sm">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <span class="text-xs font-semibold text-purple-600 uppercase tracking-wider">Cosmetics</span>
+            <h3 class="text-xl font-bold text-slate-900 mt-1">Cosmetic Dentistry & Teeth Whitening</h3>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Brighten your smile up to several shades lighter with professional in-office whitening, dental veneers, composite bonding, and diastema closure.
+            </p>
+            <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-500"></i> Professional clinical bleaching</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-500"></i> Tooth-colored composite fillings</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-500"></i> Chipped enamel repair</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-xs font-medium text-slate-500">Instant radiance</span>
+            <button data-service="Cosmetic Dentistry & Teeth Whitening" class="book-service-btn text-xs font-bold text-purple-700 hover:text-purple-900 bg-purple-100/80 hover:bg-purple-200 px-3.5 py-1.5 rounded-lg transition-colors">
+              Book This Service &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICE 7: Pediatric (Kids) Dental Care -->
+        <div class="service-card bg-slate-50 rounded-3xl p-7 border border-slate-200 flex flex-col justify-between md:col-span-2 lg:col-span-3">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl flex-shrink-0 shadow-sm">
+                <i class="fa-solid fa-children"></i>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-emerald-600 uppercase tracking-wider">Kids & Teens</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-0.5">Pediatric (Kids) Dental Care</h3>
+                <p class="text-slate-600 text-sm mt-1 max-w-2xl leading-relaxed">
+                  Child-friendly dental visits designed to eliminate fear. We offer gentle cavity treatments, pit & fissure sealants, fluoride varnish application, and habit breaking counseling in a warm, welcoming setting.
+                </p>
+                <div class="flex flex-wrap gap-4 mt-3 text-xs text-slate-600">
+                  <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Gentle milk teeth restorations</span>
+                  <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Fluoride caries protection</span>
+                  <span class="inline-flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Friendly atmosphere for kids</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex-shrink-0 w-full md:w-auto">
+              <button data-service="Pediatric (Kids) Dental Care" class="book-service-btn w-full md:w-auto text-sm font-bold text-emerald-800 bg-emerald-100 hover:bg-emerald-200 px-6 py-3 rounded-xl transition-colors text-center">
+                Book Pediatric Visit &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE APPOINTMENT BOOKING SYSTEM ================= -->
+  <section id="book-appointment" class="py-16 sm:py-20 bg-gradient-to-b from-slate-50 to-teal-50/40 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        
+        <!-- Left Explanatory / Reassurance Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-teal-600 font-bold text-xs uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+            Hassle-Free Booking
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+            Schedule Your Dental Appointment Today
+          </h2>
+          <p class="text-slate-600 text-base leading-relaxed">
+            Reserve your consultation slot with Dr. Ratna Kumar Mishra. We value your time with minimal waiting periods and dedicated personalized attention.
+          </p>
+
+          <!-- Instructions Card -->
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-4">
+            <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <i class="fa-solid fa-calendar-days text-teal-600"></i>
+              What happens after you book?
+            </h4>
+            <div class="space-y-3 text-xs text-slate-600">
+              <div class="flex items-start gap-3">
+                <span class="w-5 h-5 rounded-full bg-teal-100 text-teal-700 font-bold flex items-center justify-center flex-shrink-0 text-[11px]">1</span>
+                <span>You receive an instant Appointment Reference ID and booking summary.</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-5 h-5 rounded-full bg-teal-100 text-teal-700 font-bold flex items-center justify-center flex-shrink-0 text-[11px]">2</span>
+                <span>You can optionally send the details via 1-click WhatsApp to clinic reception.</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-5 h-5 rounded-full bg-teal-100 text-teal-700 font-bold flex items-center justify-center flex-shrink-0 text-[11px]">3</span>
+                <span>Our clinic team confirms your preferred slot via call or SMS prior to your visit.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Notice -->
+          <div class="bg-amber-50 rounded-2xl p-5 border border-amber-200 flex items-start gap-3">
+            <i class="fa-solid fa-triangle-exclamation text-amber-600 text-lg flex-shrink-0 mt-0.5"></i>
+            <div>
+              <p class="text-xs font-bold text-amber-900">Need Immediate Emergency Attention?</p>
+              <p class="text-xs text-amber-800 mt-0.5">
+                If you are suffering from severe acute toothache or facial trauma, skip the form and call us directly at 
+                <a href="tel:+9779801109099" class="font-bold underline text-amber-950">+977-9801109099</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Appointment Form Card -->
+        <div class="lg:col-span-7">
+          <div id="appointment-form-card" class="bg-white rounded-3xl p-6 sm:p-9 shadow-xl border border-slate-200">
+            
+            <div class="flex items-center justify-between pb-5 border-b border-slate-100">
+              <div>
+                <h3 class="text-xl font-bold text-slate-900">Patient Appointment Details</h3>
+                <p class="text-xs text-slate-500 mt-0.5">Fields marked with an asterisk (*) are mandatory</p>
+              </div>
+              <span class="hidden sm:inline-flex items-center gap-1.5 text-xs text-teal-700 font-semibold bg-teal-50 px-2.5 py-1 rounded-full border border-teal-200">
+                <i class="fa-solid fa-bolt text-teal-600"></i> Instant Confirmation
+              </span>
+            </div>
+
+            <!-- Booking Form -->
+            <form id="appointment-form" class="mt-6 space-y-5">
+              
+              <!-- Full Name -->
+              <div>
+                <label for="patient-name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                  Full Name *
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                    <i class="fa-solid fa-user text-sm"></i>
+                  </span>
+                  <input 
+                    type="text" 
+                    id="patient-name" 
+                    name="patient-name" 
+                    required 
+                    placeholder="e.g. Sujan Sharma"
+                    class="form-input-focus w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 transition-all"
+                  />
+                </div>
+              </div>
+
+              <!-- Phone & Email Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Nepal Phone Number -->
+                <div>
+                  <label for="patient-phone" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    Mobile Number (Nepal) *
+                  </label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 font-semibold text-xs">
+                      +977
+                    </span>
+                    <input 
+                      type="tel" 
+                      id="patient-phone" 
+                      name="patient-phone" 
+                      required 
+                      maxlength="15"
+                      placeholder="9801109099"
+                      class="form-input-focus w-full pl-14 pr-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 transition-all font-mono"
+                    />
+                  </div>
+                  <p id="phone-error" class="hidden text-xs text-red-600 mt-1 flex items-center gap-1">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Please enter valid 10-digit Nepal mobile (98XXXXXXXX or 97XXXXXXXX)
+                  </p>
+                </div>
+
+                <!-- Email (Optional) -->
+                <div>
+                  <label for="patient-email" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    Email Address <span class="text-slate-400 font-normal">(Optional)</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                      <i class="fa-solid fa-envelope text-sm"></i>
+                    </span>
+                    <input 
+                      type="email" 
+                      id="patient-email" 
+                      name="patient-email" 
+                      placeholder="name@example.com"
+                      class="form-input-focus w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 transition-all"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Date & Time Slot Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Preferred Date -->
+                <div>
+                  <label for="appointment-date" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    Preferred Date *
+                  </label>
+                  <input 
+                    type="date" 
+                    id="appointment-date" 
+                    name="appointment-date" 
+                    required 
+                    class="form-input-focus w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 transition-all bg-white"
+                  />
+                </div>
+
+                <!-- Time Slot Dropdown -->
+                <div>
+                  <label for="appointment-slot" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                    Preferred Time Slot *
+                  </label>
+                  <select 
+                    id="appointment-slot" 
+                    name="appointment-slot" 
+                    required
+                    class="form-input-focus w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 transition-all bg-white"
+                  >
+                    <option value="" disabled selected>Select a time slot</option>
+                    <option value="Morning (8:00 AM – 12:00 PM)">Morning: 8:00 AM – 12:00 PM</option>
+                    <option value="Afternoon (12:00 PM – 4:00 PM)">Afternoon: 12:00 PM – 4:00 PM</option>
+                    <option value="Evening (4:00 PM – 7:00 PM)">Evening: 4:00 PM – 7:00 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Service Needed Dropdown -->
+              <div>
+                <label for="service-select" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                  Treatment / Service Needed *
+                </label>
+                <select 
+                  id="service-select" 
+                  name="service-select" 
+                  required
+                  class="form-input-focus w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 transition-all bg-white"
+                >
+                  <option value="" disabled selected>Choose a dental service</option>
+                  <option value="Scaling & Polishing (Teeth Cleaning)">1. Scaling & Polishing (Teeth Cleaning)</option>
+                  <option value="Root Canal Treatment (RCT)">2. Root Canal Treatment (RCT)</option>
+                  <option value="Tooth Extractions & Impactions">3. Tooth Extractions & Impactions (Wisdom Tooth)</option>
+                  <option value="Dental Crowns, Bridges & Implants">4. Dental Crowns, Bridges & Implants</option>
+                  <option value="Braces & Aligners (Orthodontics)">5. Braces & Aligners (Orthodontics)</option>
+                  <option value="Cosmetic Dentistry & Teeth Whitening">6. Cosmetic Dentistry & Teeth Whitening</option>
+                  <option value="Pediatric (Kids) Dental Care">7. Pediatric (Kids) Dental Care</option>
+                  <option value="General Consultation / Checkup">8. General Oral Consultation / Toothache Checkup</option>
+                </select>
+              </div>
+
+              <!-- Brief Note / Symptoms -->
+              <div>
+                <label for="patient-notes" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                  Brief Note / Symptoms <span class="text-slate-400 font-normal">(Optional)</span>
+                </label>
+                <textarea 
+                  id="patient-notes" 
+                  name="patient-notes" 
+                  rows="3" 
+                  placeholder="Describe your dental discomfort, tooth sensitivity, or questions for Dr. Mishra..."
+                  class="form-input-focus w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 transition-all"
+                ></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button 
+                type="submit" 
+                id="submit-appointment-btn" 
+                class="w-full bg-gradient-to-r from-teal-600 to-sky-600 hover:from-teal-700 hover:to-sky-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-teal-500/25 transition-all transform hover:-translate-y-0.5 text-base flex items-center justify-center gap-2"
+              >
+                <i class="fa-regular fa-calendar-check text-lg"></i>
+                <span>Confirm & Request Appointment</span>
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= BOOKING CONFIRMED MODAL ================= -->
+  <div id="confirmation-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden">
+    <!-- Backdrop -->
+    <div id="modal-backdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity"></div>
+    
+    <!-- Modal Card -->
+    <div class="relative bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl z-10 animate-modal border border-slate-100 overflow-hidden">
+      
+      <!-- Top Success Icon -->
+      <div class="w-16 h-16 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center mx-auto text-3xl mb-4">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+
+      <div class="text-center">
+        <span class="text-xs font-bold uppercase tracking-widest text-teal-600 bg-teal-50 px-3 py-1 rounded-full">
+          Booking Confirmed
+        </span>
+        <h3 class="text-2xl font-extrabold text-slate-900 mt-2">
+          Appointment Scheduled!
+        </h3>
+        <p class="text-xs text-slate-500 mt-1">
+          Reference Code: <span id="modal-ref" class="font-mono font-bold text-slate-800">ADC-2026-0000</span>
+        </p>
+      </div>
+
+      <!-- Summary Details Table -->
+      <div class="mt-6 bg-slate-50 rounded-2xl p-4 border border-slate-200 text-xs space-y-2">
+        <div class="flex justify-between py-1 border-b border-slate-200/60">
+          <span class="text-slate-500">Patient Name:</span>
+          <span id="modal-name" class="font-bold text-slate-800">-</span>
+        </div>
+        <div class="flex justify-between py-1 border-b border-slate-200/60">
+          <span class="text-slate-500">Contact Number:</span>
+          <span id="modal-phone" class="font-bold text-slate-800 font-mono">-</span>
+        </div>
+        <div class="flex justify-between py-1 border-b border-slate-200/60">
+          <span class="text-slate-500">Service:</span>
+          <span id="modal-service" class="font-bold text-teal-700 text-right">-</span>
+        </div>
+        <div class="flex justify-between py-1 border-b border-slate-200/60">
+          <span class="text-slate-500">Preferred Date:</span>
+          <span id="modal-date" class="font-bold text-slate-800">-</span>
+        </div>
+        <div class="flex justify-between py-1 border-b border-slate-200/60">
+          <span class="text-slate-500">Time Slot:</span>
+          <span id="modal-slot" class="font-bold text-slate-800">-</span>
+        </div>
+        <div class="py-1">
+          <span class="text-slate-500 block mb-0.5">Symptoms / Notes:</span>
+          <p id="modal-notes" class="text-slate-700 italic bg-white p-2 rounded border border-slate-200 text-[11px]">-</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="mt-6 space-y-2.5">
+        <!-- 1-Click WhatsApp Button -->
+        <a 
+          id="modal-whatsapp-btn" 
+          href="#" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all text-sm"
+        >
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Send Details to WhatsApp Reception</span>
+        </a>
+
+        <!-- Call Helpline -->
+        <a 
+          href="tel:+9779801109099" 
+          class="w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-3 px-4 rounded-xl transition-all text-sm"
+        >
+          <i class="fa-solid fa-phone text-teal-600"></i>
+          <span>Call Helpline (+977-9801109099)</span>
+        </a>
+
+        <!-- Dismiss Button -->
+        <button 
+          id="close-modal-btn" 
+          type="button" 
+          class="w-full text-center text-xs text-slate-500 hover:text-slate-800 py-2 font-medium"
+        >
+          Close & Back to Website
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= LOCATION, LANDMARK & WORKING HOURS ================= -->
+  <section id="location" class="py-16 sm:py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Header -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-teal-600 font-bold text-xs uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+          Find Us Easily
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+          Location, Landmark & Timing
+        </h2>
+        <p class="text-slate-600 mt-3 text-base sm:text-lg">
+          Centrally located at Falgunanda Chowk, Damak-1, Jhapa. Conveniently accessible from Mahendra Highway and neighboring municipalities.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Left: Address & Timing Breakdown -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <!-- Physical Address Card -->
+          <div class="bg-slate-50 rounded-3xl p-6 sm:p-7 border border-slate-200">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-xl flex-shrink-0">
+                <i class="fa-solid fa-map-pin"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-900 text-lg">Physical Address</h3>
+                <p class="text-xs text-slate-500">Damak Municipality, Jhapa</p>
+              </div>
+            </div>
+
+            <p class="text-slate-700 text-sm font-semibold leading-relaxed">
+              Falgunanda Chowk, Damak Municipality-1,<br />
+              Jhapa District, Koshi Province, Nepal
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">
+                Directions & Landmark:
+              </h4>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Conveniently situated right at <strong>Falgunanda Chowk</strong> along the main access road, easily reachable from Mahendra Highway and surrounding areas of Jhapa, Morang, and Ilam.
+              </p>
+            </div>
+          </div>
+
+          <!-- Working Hours Card -->
+          <div class="bg-slate-50 rounded-3xl p-6 sm:p-7 border border-slate-200">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center text-xl flex-shrink-0">
+                <i class="fa-solid fa-business-time"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-900 text-lg">Operating Schedule</h3>
+                <p class="text-xs text-slate-500">Consultation & Procedure Hours</p>
+              </div>
+            </div>
+
+            <div class="space-y-3 text-xs">
+              <div class="flex items-center justify-between py-2 border-b border-slate-200">
+                <span class="font-semibold text-slate-700">Sunday – Friday:</span>
+                <span class="font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200">
+                  8:00 AM – 7:00 PM
+                </span>
+              </div>
+              <div class="flex items-center justify-between py-2 border-b border-slate-200">
+                <span class="font-semibold text-slate-700">Saturday:</span>
+                <span class="font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200">
+                  Emergency / By Prior Appointment
+                </span>
+              </div>
+              <div class="flex items-center justify-between py-1">
+                <span class="text-slate-500">Emergency Toothache Hotline:</span>
+                <a href="tel:+9779801109099" class="font-bold text-slate-900 hover:text-teal-600 font-mono">
+                  +977-9801109099
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Responsive Google Maps Embed Frame -->
+        <div class="lg:col-span-7">
+          <div class="bg-slate-50 rounded-3xl p-4 sm:p-5 border border-slate-200 shadow-md">
+            <div class="flex items-center justify-between mb-3 px-2">
+              <span class="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                <i class="fa-solid fa-location-crosshairs text-teal-600"></i>
+                <span>Falgunanda Chowk Map View &bull; Damak</span>
+              </span>
+              <a 
+                href="https://maps.google.com/?q=Falgunanda+Chowk,+Damak,+Jhapa,+Nepal" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="text-xs font-bold text-teal-600 hover:text-teal-800 flex items-center gap-1"
+              >
+                <span>Open in Google Maps</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+
+            <!-- Google Map Iframe Ready for Damak / Falgunanda Chowk coordinates -->
+            <div class="relative w-full rounded-2xl overflow-hidden aspect-[16/10] bg-slate-200 border border-slate-300">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14255.438271109313!2d87.6833!3d26.6667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e58e38f9725f19%3A0x7d6f51cb829ffaa1!2sDamak%2C%20Jhapa!5e0!3m2!1sen!2snp!4v1710000000000!5m2!1sen!2snp" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Arogya Dental Clinic Google Map Location at Falgunanda Chowk, Damak, Jhapa"
+              ></iframe>
+            </div>
+
+            <div class="mt-3 px-2 flex items-center justify-between text-xs text-slate-500">
+              <span>Coordinates: Damak Municipality-1, Jhapa, Nepal</span>
+              <span class="font-medium text-teal-700">Easy Bike & Car Parking Available</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CONTACT US & EMERGENCY SECTION ================= -->
+  <section id="contact" class="py-16 sm:py-20 bg-slate-900 text-white relative overflow-hidden">
+    <!-- Subtle lighting glow -->
+    <div class="absolute top-0 right-1/4 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        
+        <!-- Left: Direct Helpline & Information -->
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-teal-400 font-bold text-xs uppercase tracking-widest bg-teal-950 px-3 py-1 rounded-full border border-teal-800">
+            Get in Touch
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+            We Are Here To Assist Your Smile Needs
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Have questions about an ongoing toothache, treatment costs, or want to speak with Dr. Ratna Kumar Mishra? Connect through any of our direct channels.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <!-- Click to Call Phone Card -->
+            <a href="tel:+9779801109099" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-teal-500 transition-all group">
+              <div class="w-12 h-12 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-400">Direct Phone & Emergency</p>
+                <p class="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 font-mono">
+                  +977-9801109099 / 9801109099
+                </p>
+              </div>
+            </a>
+
+            <!-- WhatsApp Direct Card -->
+            <a href="https://wa.me/9779801109099?text=Hello%20Arogya%20Dental%20Clinic,%20I%20would%20like%20to%20inquire%20about%20dental%20treatments." target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-emerald-500 transition-all group">
+              <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-400">WhatsApp Instant Chat</p>
+                <p class="text-base sm:text-lg font-bold text-white group-hover:text-emerald-300">
+                  Chat with Clinic Reception
+                </p>
+              </div>
+            </a>
+
+            <!-- Location Address Card -->
+            <div class="flex items-center gap-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
+              <div class="w-12 h-12 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center text-xl">
+                <i class="fa-solid fa-map-location"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-400">Clinic Address</p>
+                <p class="text-sm font-semibold text-white">
+                  Falgunanda Chowk, Damak-1, Jhapa, Nepal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Quick Query Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-slate-800/90 rounded-3xl p-6 sm:p-8 border border-slate-700 shadow-xl">
+            <h3 class="text-xl font-bold text-white mb-2">Send a Quick Inquiry</h3>
+            <p class="text-xs text-slate-400 mb-6">Our team replies promptly during clinical operating hours.</p>
+
+            <form id="quick-contact-form" class="space-y-4">
+              <div>
+                <label for="contact-name" class="block text-xs font-semibold text-slate-300 mb-1">Your Full Name *</label>
+                <input 
+                  type="text" 
+                  id="contact-name" 
+                  required 
+                  placeholder="Enter your name" 
+                  class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-teal-400"
+                />
+              </div>
+
+              <div>
+                <label for="contact-phone" class="block text-xs font-semibold text-slate-300 mb-1">Phone Number (Nepal) *</label>
+                <input 
+                  type="tel" 
+                  id="contact-phone" 
+                  required 
+                  placeholder="9801109099" 
+                  class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-teal-400 font-mono"
+                />
+              </div>
+
+              <div>
+                <label for="contact-message" class="block text-xs font-semibold text-slate-300 mb-1">Your Query / Message *</label>
+                <textarea 
+                  id="contact-message" 
+                  rows="4" 
+                  required 
+                  placeholder="Type your dental query or request..." 
+                  class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-teal-400"
+                ></textarea>
+              </div>
+
+              <button 
+                type="submit" 
+                class="w-full bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold py-3.5 px-6 rounded-xl transition-all shadow-md flex items-center justify-center gap-2"
+              >
+                <i class="fa-regular fa-paper-plane"></i>
+                <span>Submit Inquiry</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 pt-16 pb-12 border-t border-slate-800 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Brand & Summary Slot -->
+        <!-- NOTE: CLINIC LOGO FOOTER PLACEHOLDER SLOT -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="assets/images/clinic-logo.jpg" alt="Arogya Dental Clinic Logo" class="w-12 h-12 rounded-full border border-teal-500" />
+            <div>
+              <span class="text-xl font-bold text-white tracking-tight">Arogya Dental Clinic</span>
+              <p class="text-xs text-slate-400 font-nepali">आरोग्य डेन्टल क्लिनिक &bull; दमक-१, झापा</p>
+            </div>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed pr-4">
+            Providing reliable, painless, and state-of-the-art dental wellness to the Damak community. Led by Dr. Ratna Kumar Mishra with authentic medical certification.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-2 text-xs">
+            <span class="bg-slate-900 text-slate-300 px-2.5 py-1 rounded border border-slate-800">NMC No: 13350</span>
+            <span class="bg-slate-900 text-slate-300 px-2.5 py-1 rounded border border-slate-800">Regd: 01-32-0703</span>
+            <span class="bg-slate-900 text-slate-300 px-2.5 py-1 rounded border border-slate-800">PAN: 118898500</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider">Quick Links</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="hover:text-teal-400 transition-colors">Home Page</a></li>
+            <li><a href="#about" class="hover:text-teal-400 transition-colors">About Arogya Dental</a></li>
+            <li><a href="#services" class="hover:text-teal-400 transition-colors">All 7 Dental Services</a></li>
+            <li><a href="#facilities" class="hover:text-teal-400 transition-colors">Doctor & Facilities Tour</a></li>
+            <li><a href="#location" class="hover:text-teal-400 transition-colors">Falgunanda Chowk Location</a></li>
+            <li><a href="#book-appointment" class="hover:text-teal-400 transition-colors">Book An Appointment</a></li>
+            <li><a href="#contact" class="hover:text-teal-400 transition-colors">Contact Information</a></li>
+          </ul>
+        </div>
+
+        <!-- Operating Hours & Contact Summary -->
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider">Visiting Hours & Contact</h4>
+          <div class="space-y-2 text-xs">
+            <p><span class="text-slate-200 font-semibold">Sun – Fri:</span> 8:00 AM – 7:00 PM</p>
+            <p><span class="text-slate-200 font-semibold">Saturday:</span> Emergency / By Appointment</p>
+            <p class="pt-2">
+              <span class="text-slate-200 font-semibold">Address:</span> Falgunanda Chowk, Damak-1, Jhapa, Nepal
+            </p>
+            <p>
+              <span class="text-slate-200 font-semibold">Phone:</span> 
+              <a href="tel:+9779801109099" class="text-teal-400 hover:underline font-mono">+977-9801109099</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2026 Arogya Dental Clinic. All Rights Reserved.</p>
+        <p class="font-nepali">Falgunanda Chowk, Damak Municipality, Jhapa, Koshi Province, Nepal</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING WHATSAPP CHAT BUTTON ================= -->
+  <div class="fixed bottom-6 right-6 z-40 flex items-center group">
+    <!-- Tooltip badge -->
+    <span class="hidden sm:inline-block mr-3 bg-slate-900/90 backdrop-blur-sm text-white text-xs font-semibold py-1.5 px-3 rounded-xl shadow-lg border border-slate-700 opacity-0 group-hover:opacity-100 transition-opacity">
+      Chat on WhatsApp
+    </span>
+
+    <a 
+      href="https://wa.me/9779801109099?text=Hello%20Arogya%20Dental%20Clinic,%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      aria-label="Direct WhatsApp Chat with Arogya Dental Clinic"
+      class="relative w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex items-center justify-center text-2xl shadow-2xl hover:shadow-emerald-500/40 transition-all transform hover:scale-110"
+    >
+      <!-- Subtle ring pulse -->
+      <span class="absolute inset-0 rounded-full bg-emerald-500 animate-ping opacity-25"></span>
+      <i class="fa-brands fa-whatsapp relative z-10"></i>
+    </a>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
