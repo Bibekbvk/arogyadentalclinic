@@ -17,3 +17,5 @@ dist/
 build/
 .system_generated/
 scratch/
+
+.netlify/
