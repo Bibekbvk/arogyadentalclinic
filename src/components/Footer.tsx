@@ -36,8 +36,13 @@ export const Footer: React.FC<FooterProps> = ({ lang, onLanguageChange }) => {
           {/* Identity & Practice Column (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-xl bg-[#0D9488] text-white flex items-center justify-center font-serif text-lg font-bold shadow-md shadow-[#0D9488]/30">
-                RM
+              <div className="w-12 h-12 rounded-xl bg-white p-1.5 shrink-0 shadow-md border border-slate-700 relative overflow-hidden group">
+                <Image
+                  src="/images/aarogya-dental-clinic-logo.jpg"
+                  alt="Aarogya Dental Clinic Logo"
+                  fill
+                  className="object-contain p-0.5"
+                />
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-tight">
@@ -45,7 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onLanguageChange }) => {
                 </h3>
                 <p className="text-xs text-[#0D9488] font-mono font-semibold flex items-center gap-1.5">
                   <ShieldCheck className="w-3.5 h-3.5" />
-                  B.D.S. (BPKIHS) • NMC Regd. No. 13350
+                  Director, Aarogya Dental Clinic • NMC #13350
                 </p>
               </div>
             </div>
@@ -56,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onLanguageChange }) => {
                 : "Senior Dental Surgeon & Director at Aarogya Dental Clinic. Author of 'The Lost Book (Sarobar Sarobar)' and 'The Crash Book (Dental Crash Course)'."}
             </p>
 
-            <div className="p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/80 space-y-1">
+            <div className="p-3 rounded-2xl bg-slate-800/80 border border-slate-700/80 space-y-1">
               <div className="text-[11px] font-mono uppercase tracking-widest text-[#D97706] font-bold">
                 Persona & Ethos:
               </div>
@@ -65,9 +70,17 @@ export const Footer: React.FC<FooterProps> = ({ lang, onLanguageChange }) => {
               </div>
             </div>
 
-            {/* Official Registration Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#0D9488]/15 border border-[#0D9488]/30 text-xs text-[#2dd4bf] font-mono">
-              <span>NMC Dental Licensure #13350 (2072.08.22)</span>
+            {/* Official Registration Badges */}
+            <div className="flex flex-wrap gap-2 text-[11px] font-mono">
+              <span className="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-[#2dd4bf]">
+                Govt Regd: 01-32-0703
+              </span>
+              <span className="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-slate-300">
+                PAN: 118898500
+              </span>
+              <span className="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-[#FBBF24]">
+                NMC: 13350
+              </span>
             </div>
           </div>
 
@@ -160,17 +173,17 @@ export const Footer: React.FC<FooterProps> = ({ lang, onLanguageChange }) => {
             </h4>
 
             <div className="space-y-2 text-xs text-slate-400">
-              <p className="text-slate-300 font-medium">Aarogya Dental Clinic</p>
-              <p>Rautahat / Nepal</p>
+              <p className="text-white font-semibold">Aarogya Dental Clinic</p>
+              <p className="text-slate-300">Falgunanda Chowk, Damak-1, Jhapa</p>
               <p className="text-slate-400">Sun–Fri: 9:30 AM – 8:30 PM</p>
               
               <div className="pt-2">
                 <a
-                  href="tel:+9779800000000"
-                  className="inline-flex items-center gap-1 text-[#2dd4bf] hover:underline"
+                  href="tel:+9779801109022"
+                  className="inline-flex items-center gap-1.5 text-[#2dd4bf] hover:underline font-mono font-semibold"
                 >
-                  <Phone className="w-3 h-3" />
-                  <span>+977 980-0000000</span>
+                  <Phone className="w-3.5 h-3.5" />
+                  <span>+977 9801109022</span>
                 </a>
               </div>
             </div>

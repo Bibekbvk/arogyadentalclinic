@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { translations, Language } from "@/lib/translations";
 import { Menu, X, Globe, ShieldCheck, Calendar } from "lucide-react";
 
@@ -45,20 +46,27 @@ export const Navbar: React.FC<NavbarProps> = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo & Identity */}
+          {/* Logo & Identity with Official Aarogya Clinic Emblem */}
           <a href="#" className="group flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#0D9488] text-white flex items-center justify-center font-serif text-lg font-bold shadow-md shadow-[#0D9488]/20 group-hover:scale-105 transition-transform duration-200">
-              RM
+            <div className="relative w-11 h-11 rounded-2xl bg-white p-1 shrink-0 border border-slate-200 shadow-xs group-hover:scale-105 group-hover:shadow-md transition-all duration-300">
+              <Image
+                src="/images/aarogya-dental-clinic-logo.jpg"
+                alt="Aarogya Dental Clinic Official Logo"
+                fill
+                className="object-contain p-0.5 rounded-xl"
+                priority
+              />
+              <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white animate-pulse" />
             </div>
             <div>
-              <div className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#1E293B] group-hover:text-[#0D9488] transition-colors">
-                Dr. Ratna Kumar Mishra
+              <div className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#1E293B] group-hover:text-[#0D9488] transition-colors flex items-center gap-2">
+                <span>Dr. Ratna Kumar Mishra</span>
               </div>
               <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
-                <span>B.D.S. (BPKIHS)</span>
+                <span className="text-[#0D9488] font-bold">Aarogya Dental Clinic</span>
                 <span className="w-1 h-1 rounded-full bg-slate-300" />
-                <span className="text-[#0D9488] flex items-center gap-1 font-mono font-semibold">
-                  <ShieldCheck className="w-3 h-3" />
+                <span className="flex items-center gap-1 font-mono text-slate-600">
+                  <ShieldCheck className="w-3 h-3 text-[#0D9488]" />
                   {t.license}
                 </span>
               </div>

@@ -486,8 +486,8 @@ export const translations = {
       whatsAppChat: "WhatsApp Consultation",
       scheduleBtn: "Schedule Clinic Visit",
       locationTitle: "Clinic Location & Map",
-      locationAddress: "Aarogya Dental Clinic, Rautahat / Nepal",
-      landmark: "Near Main Chowk, Rautahat"
+      locationAddress: "Aarogya Dental Clinic, Falgunanda Chowk, Damak-1, Jhapa, Nepal",
+      landmark: "Falgunanda Chowk, Damak-1, Jhapa (Opposite Main Road)"
     },
     showcase: {
       sectionBadge: "Literary Works & Books",
@@ -610,8 +610,8 @@ export const translations = {
       whatsAppChat: "ह्वाट्सएप परामर्श",
       scheduleBtn: "क्लिनिक भेट निश्चित गर्नुहोस्",
       locationTitle: "क्लिनिक स्थान तथा नक्सा",
-      locationAddress: "आरोग्य डेन्टल क्लिनिक, रौतहट / नेपाल",
-      landmark: "मुख्य चोक नजिकै, रौतहट"
+      locationAddress: "आरोग्य डेन्टल क्लिनिक, फाल्गुनन्द चोक, दमक-१, झापा",
+      landmark: "फाल्गुनन्द चोक, दमक-१, झापा"
     },
     showcase: {
       sectionBadge: "साहित्यिक कृतिहरू तथा पुस्तकहरू",

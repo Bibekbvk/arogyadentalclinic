@@ -223,11 +223,21 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenBooking }) => {
                   </div>
                 </div>
 
-                <div className="absolute -bottom-3 -right-3 bg-white border border-[#0D9488]/40 shadow-xl rounded-2xl px-4 py-2.5 flex items-center gap-2.5">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#0D9488] animate-ping" />
+                <div className="absolute -bottom-3 -right-3 bg-white border border-[#0D9488]/40 shadow-xl rounded-2xl p-2.5 pr-4 flex items-center gap-3">
+                  <div className="relative w-9 h-9 rounded-xl overflow-hidden bg-slate-50 border border-slate-200 shrink-0">
+                    <Image
+                      src="/images/aarogya-dental-clinic-logo.jpg"
+                      alt="Aarogya Dental Clinic"
+                      fill
+                      className="object-contain p-0.5"
+                    />
+                  </div>
                   <div>
-                    <div className="text-xs font-bold text-[#1E293B]">Aarogya Dental Clinic</div>
-                    <div className="text-[10px] text-[#0D9488] font-semibold">{t.activeStatus}</div>
+                    <div className="text-xs font-bold text-[#1E293B] flex items-center gap-1.5">
+                      <span>Aarogya Dental Clinic</span>
+                      <span className="w-2 h-2 rounded-full bg-[#0D9488] animate-ping" />
+                    </div>
+                    <div className="text-[10px] text-[#0D9488] font-semibold">{t.activeStatus} • Damak-1</div>
                   </div>
                 </div>
               </div>

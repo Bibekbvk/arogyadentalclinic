@@ -221,69 +221,155 @@ export const HeroPromoComposition: React.FC = () => {
         </div>
       )}
 
-      {/* SCENE 2: Aarogya Dental Clinic & Clinical Stats */}
+      {/* SCENE 2: Aarogya Dental Clinic & Clinical Stats with Official Board */}
       {sceneIndex === 1 && (
         <div
           style={{
             opacity: sceneOpacity,
             transform: `scale(${scale})`,
             textAlign: "center",
-            maxWidth: 850,
-            padding: 20,
+            maxWidth: 880,
+            padding: "10px 20px",
           }}
         >
+          {/* Logo & Clinic Header */}
           <div
             style={{
-              display: "inline-flex",
+              display: "flex",
               alignItems: "center",
-              gap: 8,
-              padding: "6px 16px",
-              borderRadius: 20,
-              backgroundColor: "rgba(13, 148, 136, 0.2)",
-              border: "1px solid rgba(13, 148, 136, 0.5)",
-              color: "#2DD4BF",
-              fontSize: 13,
-              fontWeight: 700,
-              letterSpacing: 2,
-              textTransform: "uppercase",
-              marginBottom: 16,
+              justifyContent: "center",
+              gap: 14,
+              marginBottom: 10,
             }}
           >
-            AAROGYA DENTAL CLINIC
+            <div
+              style={{
+                width: 52,
+                height: 52,
+                borderRadius: 14,
+                backgroundColor: "#FFFFFF",
+                padding: 4,
+                boxShadow: "0 0 20px rgba(13, 148, 136, 0.4)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                overflow: "hidden",
+              }}
+            >
+              <img
+                src="/images/aarogya-dental-clinic-logo.jpg"
+                alt="Aarogya Logo"
+                style={{ width: "100%", height: "100%", objectFit: "contain" }}
+              />
+            </div>
+            
+            <div style={{ textAlign: "left" }}>
+              <div
+                style={{
+                  color: "#2DD4BF",
+                  fontSize: 11,
+                  fontWeight: 700,
+                  letterSpacing: 2,
+                  fontFamily: "monospace",
+                  textTransform: "uppercase",
+                }}
+              >
+                AAROGYA DENTAL CLINIC • DAMAK-1, JHAPA
+              </div>
+              <div
+                style={{
+                  fontSize: 24,
+                  fontWeight: 800,
+                  color: "#FFFFFF",
+                  lineHeight: 1.2,
+                }}
+              >
+                15+ Years Surgical & Aesthetic Precision
+              </div>
+            </div>
           </div>
 
-          <h1
+          {/* Animated 3D Floating Official Signboard Card */}
+          <div
             style={{
-              fontSize: 48,
-              fontWeight: 800,
-              letterSpacing: -1,
-              lineHeight: 1.15,
-              margin: 0,
-              color: "#FFFFFF",
+              position: "relative",
+              width: 520,
+              maxWidth: "95%",
+              height: 125,
+              borderRadius: 16,
+              overflow: "hidden",
+              border: "2px solid rgba(220, 38, 38, 0.7)",
+              boxShadow: "0 15px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(220, 38, 38, 0.3)",
+              margin: "8px auto",
+              transform: `perspective(600px) rotateX(${Math.sin(frame / 15) * 3}deg) rotateY(${Math.cos(frame / 20) * 4}deg)`,
+              transition: "transform 0.1s ease-out",
             }}
           >
-            15+ Years Clinical Excellence
-          </h1>
+            <img
+              src="/images/aarogya-official-signboard.jpg"
+              alt="Official Signboard"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+            {/* Dynamic Sweep Light */}
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                bottom: 0,
+                left: `${((localFrame * 3) % 180) - 40}%`,
+                width: 70,
+                background: "linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent)",
+                transform: "skewX(-20deg)",
+                pointerEvents: "none",
+              }}
+            />
+            {/* Official Credentials Floating Pill */}
+            <div
+              style={{
+                position: "absolute",
+                bottom: 0,
+                left: 0,
+                right: 0,
+                backgroundColor: "rgba(15, 23, 42, 0.92)",
+                padding: "3px 12px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                fontSize: 10,
+                fontFamily: "monospace",
+                color: "#E2E8F0",
+                backdropFilter: "blur(4px)",
+              }}
+            >
+              <span style={{ color: "#FBBF24", fontWeight: 700 }}>
+                ★ REGD: 01-32-0703 • PAN 118898500 • NMC 13350
+              </span>
+              <span style={{ color: "#38BDF8", fontWeight: 600 }}>
+                दमक-१, झापा • ९८०११०९०२२
+              </span>
+            </div>
+          </div>
 
+          {/* Real Clinical Milestones */}
           <div
             style={{
               display: "flex",
               justifyContent: "center",
-              gap: 40,
-              marginTop: 24,
+              gap: 36,
+              marginTop: 14,
             }}
           >
             <div>
-              <div style={{ fontSize: 36, fontWeight: 800, color: "#2DD4BF" }}>12,000+</div>
-              <div style={{ fontSize: 13, color: "#94A3B8", marginTop: 4 }}>Smiles Restored</div>
+              <div style={{ fontSize: 28, fontWeight: 800, color: "#2DD4BF" }}>12,000+</div>
+              <div style={{ fontSize: 11, color: "#94A3B8" }}>Patients Treated</div>
             </div>
             <div>
-              <div style={{ fontSize: 36, fontWeight: 800, color: "#38BDF8" }}>18,500+</div>
-              <div style={{ fontSize: 13, color: "#94A3B8", marginTop: 4 }}>Procedures Done</div>
+              <div style={{ fontSize: 28, fontWeight: 800, color: "#38BDF8" }}>18,500+</div>
+              <div style={{ fontSize: 11, color: "#94A3B8" }}>Procedures Done</div>
             </div>
             <div>
-              <div style={{ fontSize: 36, fontWeight: 800, color: "#D97706" }}>99.4%</div>
-              <div style={{ fontSize: 13, color: "#94A3B8", marginTop: 4 }}>Patient Trust</div>
+              <div style={{ fontSize: 28, fontWeight: 800, color: "#D97706" }}>99.4%</div>
+              <div style={{ fontSize: 11, color: "#94A3B8" }}>Patient Trust</div>
             </div>
           </div>
         </div>

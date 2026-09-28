@@ -33,7 +33,7 @@ export const ContactAndBooking: React.FC<ContactAndBookingProps> = ({ lang }) =>
     name: "",
     phone: "",
     treatment: "aesthetic",
-    branch: "rautahat",
+    branch: "damak",
     date: "",
     timeSlot: "morning",
     notes: "",
@@ -114,11 +114,11 @@ export const ContactAndBooking: React.FC<ContactAndBookingProps> = ({ lang }) =>
             </div>
 
             <a
-              href="tel:+9779800000000"
+              href="tel:+9779801109022"
               className="px-6 py-3 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white font-semibold text-xs sm:text-sm shadow-md flex items-center gap-2 transition-all active:scale-[0.98] shrink-0"
             >
               <Phone className="w-4 h-4" />
-              <span>{lang === "ne" ? "आकस्मिक हटलाइन: ९८००००००००" : "Emergency Call: +977 980-0000000"}</span>
+              <span>{lang === "ne" ? "आकस्मिक हटलाइन: ९८०११०९०२२" : "Emergency Call: +977 9801109022"}</span>
             </a>
           </div>
         </div>
@@ -244,8 +244,8 @@ export const ContactAndBooking: React.FC<ContactAndBookingProps> = ({ lang }) =>
                           onChange={(e) => setPatientForm({ ...patientForm, branch: e.target.value })}
                           className="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#0D9488] transition-all bg-white"
                         >
-                          <option value="rautahat">Aarogya Dental Clinic — Rautahat Central</option>
-                          <option value="referral">Specialist Referral / Consultation Center</option>
+                          <option value="damak">Aarogya Dental Clinic — Falgunanda Chowk, Damak-1, Jhapa (Main Facility)</option>
+                          <option value="referral">Specialist Referral / Surgical Consultation</option>
                         </select>
                       </div>
                     </div>
